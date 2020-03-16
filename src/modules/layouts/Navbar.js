@@ -48,7 +48,7 @@ const Navbar = (props) => {
               </Button>
 
               <Button circular color='red' style={{ width: 100, top: 15, }} animated>
-                <Button.Content visible>Sair</Button.Content>
+                <a href="Login.js"></a><Button.Content visible>Sair</Button.Content>
                 <Button.Content hidden>
                   <Icon name='log out' />
                 </Button.Content>
