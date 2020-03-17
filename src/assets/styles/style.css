@@ -1,10 +1,16 @@
 /*HEADER*/
-/*enquete.css*/
+/*NavBar.css*/
 header{
-    width: 110; top: 15; position: relative; background-color: "04694"; margin: 1vw;
-        height: 50%; 
-    align-items: center;justify-content: space-evenly;flex-direction: column;
-    position: relative;display: flex; bottom: 0vh; background: #004694; width: 100%;};
+    background: #004694;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    position: relative;
+ }
 header img{
     height: 100%;
 }
@@ -60,7 +66,7 @@ footer #contributors img{
     
 
    
-   footer{
+*footer{
         align-items: center;justify-content: space-evenly;flex-direction: column;
         position: relative;display: flex; bottom: 0vh; background: #004694; width: 100%;
     }

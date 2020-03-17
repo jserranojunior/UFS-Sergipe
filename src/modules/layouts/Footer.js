@@ -24,7 +24,6 @@ const FooterPage = () => {
         </div>
         <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
           <div className="row">
-
             <div className="col text-center">
               <h6>Colaboradores</h6> 
             </div>
@@ -58,8 +57,6 @@ const FooterPage = () => {
 
 const Image = styled.img`
   // height: 50px;
-  // margin-top: 0px;
-  //position: relative;display: flex; bottom: 0vh; background: #004694; width: 100%;
   // width: 130px;
   // margin-top: 0px;
   // margin-left: 50px;

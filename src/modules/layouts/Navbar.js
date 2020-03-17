@@ -50,6 +50,8 @@ const Navbar = (props) => {
                 </Button.Content>
               </Button>
                
+
+
               <a href="login"> <Button circular color='red' animated>
                <Button.Content visible>Sair</Button.Content>
                 <Button.Content hidden>
@@ -70,21 +72,22 @@ export default withRouter(Navbar)
 
 const NavBar = styled(animated.nav)`
   position: relative;
-  height: 70px;
+  height: 100px;
   width: 100%;
   top: 0;
   left: 0;
+  right: 0;
   background: #004694;
   z-index: 1;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
   width: 110, top: 15;
 `;
 
-const FlexContainer = styled.div`
+/*const FlexContainer = styled.div`
   max-width: 120rem;
   display: flex;
   margin: auto;
   padding: 0 2rem;;
   justify-content: space-between;
   height: 5rem;
-`;
+`;*/
