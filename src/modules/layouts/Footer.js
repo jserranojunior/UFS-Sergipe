@@ -24,6 +24,7 @@ const FooterPage = () => {
         </div>
         <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
           <div className="row">
+
             <div className="col text-center">
               <h6>Colaboradores</h6> 
             </div>
@@ -36,7 +37,7 @@ const FooterPage = () => {
               <Image className="img-fluid" src={DAU} alt="DAU"/>          
             </div>
             <div className="col">
-              <Image className="img-fluid" src={DCOMPs} alt="DCOMP" />
+              <Image className="img-fluid" src={DCOMP} alt="DCOMP" />
             </div>
           </div>
         </div>
