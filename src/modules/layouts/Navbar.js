@@ -18,47 +18,45 @@ const Navbar = (props) => {
 <div className="container-fluid">
      <div className="col">
      <div className="row justify-content-center">
-      <div className="col-12">
+      <div className="col-12 col-sm-6 col-lg-6">
       <NavBar style={barAnimation}>
-      <FlexContainer>
       <Brand />
-      <div>
-      <Button circular color='blue' style={{ width: 110, top: 15, backgroundColor: "" }} animated='vertical'>
+      <div class="header">
+      <Button circular color='blue'  animated='vertical'>
                 <Button.Content visible>Audiências</Button.Content>
                 <Button.Content hidden>
                   <Icon name='discussions' />
                 </Button.Content>
               </Button>
               
-              <Button circular color='blue' style={{ width: 110, top: 15, backgroundColor: "#004694" }} animated='vertical'>
+              <Button circular color='blue' animated='vertical'>
                 <Button.Content visible>Calendário</Button.Content>
                 <Button.Content hidden>
                   <Icon name='calendar check' />
                 </Button.Content>
               </Button>
              
-              <Button circular color='blue' style={{ width: 100, top: 15, backgroundColor: "" }} animated='vertical'>
+              <Button circular color='blue'  animated='vertical'>
                 <Button.Content visible>Ajuda</Button.Content>
                 <Button.Content hidden>
                   <Icon name='question circle' />
                 </Button.Content>
               </Button>
              
-              <Button circular color='blue' style={{ width: 100, top: 15, backgroundColor: "#004694" }} animated='vertical'>
+              <Button circular color='blue'  animated='vertical'>
                 <Button.Content visible>Perfil</Button.Content>
                 <Button.Content hidden>
                   <Icon name='user circle' />
                 </Button.Content>
               </Button>
                
-              <a href="login"> <Button circular color='red' style={{ width: 100, top: 15, }} animated>
+              <a href="login"> <Button circular color='red' animated>
                <Button.Content visible>Sair</Button.Content>
                 <Button.Content hidden>
                   <Icon name='log out' />
                 </Button.Content>
               </Button></a>
                  </div>
-                 </FlexContainer>
                  </NavBar>
              </div>
            </div>
@@ -79,6 +77,7 @@ const NavBar = styled(animated.nav)`
   background: #004694;
   z-index: 1;
   font-size: 1.4rem;
+  width: 110, top: 15;
 `;
 
 const FlexContainer = styled.div`

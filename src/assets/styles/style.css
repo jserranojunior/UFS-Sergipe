@@ -1,14 +1,13 @@
 /*HEADER*/
 /*enquete.css*/
 header{
-    background: #004694; flex-wrap: wrap;flex-direction: column; align-items: center;
-    justify-content: space-around; display: flex; width: 100vw; height: 65px;
-}
-
+    width: 110; top: 15; position: relative; background-color: "04694"; margin: 1vw;
+        height: 50%; 
+    align-items: center;justify-content: space-evenly;flex-direction: column;
+    position: relative;display: flex; bottom: 0vh; background: #004694; width: 100%;};
 header img{
-    height: 70%;
+    height: 100%;
 }
-
 
 /*@media (min-width: 1000px) {
 /*FOOTER*/
@@ -55,9 +54,13 @@ footer #contributors img{
     #navbarMobile ui{
         align-items: center;justify-content: center;background: red;padding: 5px;
     }
+
+
     /*FOOTER*/
     
-    /*footer{
+
+   
+   footer{
         align-items: center;justify-content: space-evenly;flex-direction: column;
         position: relative;display: flex; bottom: 0vh; background: #004694; width: 100%;
     }
@@ -90,7 +93,7 @@ footer #contributors img{
     footer #contributors img{
         height: 40%;
     }
-    }
+    
 
 /*App*/
 

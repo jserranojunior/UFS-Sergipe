@@ -36,7 +36,7 @@ const FooterPage = () => {
               <Image className="img-fluid" src={DAU} alt="DAU"/>          
             </div>
             <div className="col">
-              <Image className="img-fluid" src={DCOMP} alt="DCOMP" />
+              <Image className="img-fluid" src={DCOMPs} alt="DCOMP" />
             </div>
           </div>
         </div>
@@ -57,9 +57,8 @@ const FooterPage = () => {
 
 const Image = styled.img`
   // height: 50px;
-  // width: 50px;
   // margin-top: 0px;
-  background-color: #004694;
+  //position: relative;display: flex; bottom: 0vh; background: #004694; width: 100%;
   // width: 130px;
   // margin-top: 0px;
   // margin-left: 50px;
