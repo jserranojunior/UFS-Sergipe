@@ -42,7 +42,7 @@ const FooterPage = () => {
         </div>
         <div className="col text-center align-self-center">
           <span> &copy; {new Date().getFullYear()} Universidade Federal de Sergipe</span>        
-<<<<<<< HEAD
+
          </div>
       </div>  
     </div>
@@ -50,31 +50,18 @@ const FooterPage = () => {
  </div>
    </div>
      </div>
-=======
-        </div>
-        </div>  
-      </div>
-    </div>
-     </div>
     
-   </div>
-   
-    
-    </div>
->>>>>>> 18286b3155b9ac970fda31bd210eb62acc392eed
+
   );
 }
 
 const Image = styled.img`
   // height: 50px;
-<<<<<<< HEAD
   // width: 50px;
   // margin-top: 0px;
   background-color: #004694;
-=======
   // width: 130px;
   // margin-top: 0px;
->>>>>>> 18286b3155b9ac970fda31bd210eb62acc392eed
   // margin-left: 50px;
 `;
 
