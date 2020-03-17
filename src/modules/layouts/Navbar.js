@@ -11,62 +11,65 @@ const Navbar = (props) => {
     from: { transform: 'translate3d(0, -10rem, 0)' },
     transform: 'translate3d(0, 0, 0)',
   });
-
   return (
     <header className="row">
-      <div className="col">
-        <NavBar style={barAnimation}>
-          <FlexContainer>
-            <Brand />
-            <div>
-              <Button circular color='blue' style={{ width: 110, top: 15, backgroundColor: "#004694" }} animated='vertical'>
+<div className="container-fluid">
+     <div className="col">
+     <div className="row justify-content-center">
+      <div className="col-12">
+      <NavBar style={barAnimation}>
+      <FlexContainer>
+      <Brand />
+      <div>
+      <Button circular color='blue' style={{ width: 110, top: 15, backgroundColor: "" }} animated='vertical'>
                 <Button.Content visible>Audiências</Button.Content>
                 <Button.Content hidden>
                   <Icon name='discussions' />
                 </Button.Content>
               </Button>
-
+              
               <Button circular color='blue' style={{ width: 110, top: 15, backgroundColor: "#004694" }} animated='vertical'>
                 <Button.Content visible>Calendário</Button.Content>
                 <Button.Content hidden>
                   <Icon name='calendar check' />
                 </Button.Content>
               </Button>
-
-              <Button circular color='blue' style={{ width: 100, top: 15, backgroundColor: "#004694" }} animated='vertical'>
+             
+              <Button circular color='blue' style={{ width: 100, top: 15, backgroundColor: "" }} animated='vertical'>
                 <Button.Content visible>Ajuda</Button.Content>
                 <Button.Content hidden>
                   <Icon name='question circle' />
                 </Button.Content>
               </Button>
-
+             
               <Button circular color='blue' style={{ width: 100, top: 15, backgroundColor: "#004694" }} animated='vertical'>
                 <Button.Content visible>Perfil</Button.Content>
                 <Button.Content hidden>
                   <Icon name='user circle' />
                 </Button.Content>
               </Button>
-
-              <a href="Login"><Button circular color='red' style={{ width: 100, top: 15, }} animated>
-                <Button.Content visible>Sair</Button.Content>
+               
+              <a href="login"> <Button circular color='red' style={{ width: 100, top: 15, }} animated>
+               <Button.Content visible>Sair</Button.Content>
                 <Button.Content hidden>
                   <Icon name='log out' />
                 </Button.Content>
               </Button></a>
-            </div>
-
-          </FlexContainer>
-        </NavBar>
-
+                 </div>
+                 </FlexContainer>
+                 </NavBar>
+             </div>
+           </div>
+        </div>
       </div>
-    </header>
+      </header>
+      
   )
 }
-
 export default withRouter(Navbar)
 
 const NavBar = styled(animated.nav)`
-  position: fixed;
+  position: relative;
   height: 70px;
   width: 100%;
   top: 0;
