@@ -18,7 +18,7 @@ const Navbar = (props) => {
 <div className="container-fluid">
      <div className="col">
      <div className="row justify-content-center">
-      <div className="col-12 col-sm-6 col-lg-6">
+      <div className="col-10 col-sm-6 col-lg-6">
       <NavBar style={barAnimation}>
       <Brand />
       <div class="header">
